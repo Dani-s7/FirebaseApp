@@ -1,17 +1,24 @@
-# firebaseapp
+# Aplicativo Firebase
 
-A new Flutter project.
+Projeto desenvolvido em Flutter durante a disciplina de Desenvolvimento de Aplicações.
 
-## Getting Started
+## Sobre o projeto
 
-This project is a starting point for a Flutter application.
+Aplicativo desenvolvido como parte das atividades acadêmicas, utilizando Flutter e recursos do Firebase.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias utilizadas
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- Firebase
+- Git e GitHub
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Desenvolvimento
+
+O projeto está sendo desenvolvido de forma incremental, utilizando branches para organizar as atividades de cada semana.
+
+### Branches
+
+- `main` – versão principal do projeto
+- `semana1` – atividades da Semana 1
+- `semana2` – atividades da Semana 2
