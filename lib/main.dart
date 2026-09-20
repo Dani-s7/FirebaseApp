@@ -5,10 +5,12 @@ import 'firebase_options.dart';
 import 'login.dart';
 import 'welcome.dart';
 import 'notes.dart';
+import 'notifications.dart';
 
 Future<void> main() async {
  WidgetsFlutterBinding.ensureInitialized();
  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Notifications.init();
  runApp(const MyApp());
 }
 
