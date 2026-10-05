@@ -16,7 +16,7 @@ class Notifications {
      android: AndroidInitializationSettings('@mipmap/ic_launcher'),
      iOS: DarwinInitializationSettings(),
    );
-   await _notifications.initialize(init);
+   await _notifications.initialize(settings: init);
    await _notifications
        .resolvePlatformSpecificImplementation<
          AndroidFlutterLocalNotificationsPlugin
@@ -31,10 +31,10 @@ class Notifications {
    String? payload,
  }) {
    return _notifications.show(
-     id,
-     title,
-     body,
-     const NotificationDetails(
+     id: id,
+     title: title,
+     body: body,
+     notificationDetails: const NotificationDetails(
        android: AndroidNotificationDetails(
          'high_importance_channel',
          'Notificações Importantes',
